@@ -1,0 +1,30 @@
+{
+    "programa_base_nacional": [
+        {
+            "id": 1,
+            "nome": "NOVO Brasil mais produtivo",
+            "descricao": "Programa Piloto",
+            "data_inicio_prevista": "2020-12-30",
+            "data_fim_prevista": "2021-12-22",
+            "situacao": 1,
+            "data_criacao": "2020-12-30 08:59:48.967"
+        }
+    ],
+    "input_programa": [
+        {
+            "id": 1,
+            "nome": "Energia",
+            "id_programa": 1,
+            "placeholder": "mW/h",
+            "sufixo": "mW/h"
+        }
+    ],
+    "input_programa_atendimento": [
+        {
+            "id": 1,
+            "valor": 100.12,
+            "id_input_programa": 1,
+            "id_atendimento": 1
+        }
+    ]
+}
