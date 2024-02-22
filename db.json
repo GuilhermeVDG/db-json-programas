@@ -8,7 +8,17 @@
             "data_fim_prevista": "2021-12-22",
             "situacao": 1,
             "data_criacao": "2020-12-30 08:59:48.967",
-            "id_produto_nacional": 868
+            "id_produto_nacional": 868,
+            "inputs": [
+                {
+                    "id": 1,
+                    "nome": "Energia",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "mW/h",
+                    "sufixo": "mW/h"
+                }
+            ]
         }
     ],
     "input_programa": [
