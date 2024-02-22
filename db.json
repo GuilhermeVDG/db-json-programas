@@ -12,7 +12,7 @@
             "inputs": [
                 {
                     "id": 1,
-                    "nome": "Valor do KWh médio",
+                    "nome": "Valor do KWh medio",
                     "descricao_input": "Indicador que mede a energia gasta",
                     "id_programa": 1,
                     "placeholder": "R$/KWh",
@@ -20,7 +20,7 @@
                 },
                 {
                     "id": 2,
-                    "nome": "Economia com Correção de fator de potência",
+                    "nome": "Economia com Correcao de fator de potencia",
                     "descricao_input": "Indicador que mede a energia gasta",
                     "id_programa": 1,
                     "placeholder": "R$",
@@ -28,7 +28,7 @@
                 },
                 {
                     "id": 3,
-                    "nome": "Economia com readequação de demanda contratada",
+                    "nome": "Economia com readequacao de demanda contratada",
                     "descricao_input": "Indicador que mede a energia gasta",
                     "id_programa": 1,
                     "placeholder": "R$",
@@ -36,7 +36,7 @@
                 },
                 {
                     "id": 4,
-                    "nome": "Economia com reenquadramento tarifário",
+                    "nome": "Economia com reenquadramento tarifario",
                     "descricao_input": "Indicador que mede a energia gasta",
                     "id_programa": 1,
                     "placeholder": "R$",
@@ -44,7 +44,7 @@
                 },
                 {
                     "id": 5,
-                    "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+                    "nome": "Investimentos com acoes da analise tarifaria [OPEX + CAPEX]",
                     "descricao_input": "Indicador que mede a energia gasta",
                     "id_programa": 1,
                     "placeholder": "R$",
@@ -64,7 +64,7 @@
     "input_programa": [
         {
             "id": 1,
-            "nome": "Valor do KWh médio",
+            "nome": "Valor do KWh medio",
             "descricao_input": "Indicador que mede a energia gasta",
             "id_programa": 1,
             "placeholder": "R$/KWh",
@@ -72,7 +72,7 @@
         },
         {
             "id": 2,
-            "nome": "Economia com Correção de fator de potência",
+            "nome": "Economia com Correcao de fator de potencia",
             "descricao_input": "Indicador que mede a energia gasta",
             "id_programa": 1,
             "placeholder": "R$",
@@ -80,7 +80,7 @@
         },
         {
             "id": 3,
-            "nome": "Economia com readequação de demanda contratada",
+            "nome": "Economia com readequacao de demanda contratada",
             "descricao_input": "Indicador que mede a energia gasta",
             "id_programa": 1,
             "placeholder": "R$",
@@ -88,7 +88,7 @@
         },
         {
             "id": 4,
-            "nome": "Economia com reenquadramento tarifário",
+            "nome": "Economia com reenquadramento tarifario",
             "descricao_input": "Indicador que mede a energia gasta",
             "id_programa": 1,
             "placeholder": "R$",
@@ -96,7 +96,7 @@
         },
         {
             "id": 5,
-            "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+            "nome": "Investimentos com acoes da analise tarifaria [OPEX + CAPEX]",
             "descricao_input": "Indicador que mede a energia gasta",
             "id_programa": 1,
             "placeholder": "R$",
