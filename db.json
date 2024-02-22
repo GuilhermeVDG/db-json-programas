@@ -62,14 +62,54 @@
         }
     ],
     "input_programa": [
-        {
-            "id": 1,
-            "nome": "Energia",
-            "descricao_input": "Indicador que mede a energia gasta",
-            "id_programa": 1,
-            "placeholder": "mW/h",
-            "sufixo": "mW/h"
-        }
+                {
+                    "id": 1,
+                    "nome": "Valor do KWh médio",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$/KWh",
+                    "sufixo": "R$/KWh",
+                },
+                {
+                    "id": 2,
+                    "nome": "Economia com Correção de fator de potência",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$",
+                },
+                {
+                    "id": 3,
+                    "nome": "Economia com readequação de demanda contratada",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$",
+                },
+                {
+                    "id": 4,
+                    "nome": "Economia com reenquadramento tarifário",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$",
+                },
+                {
+                    "id": 5,
+                    "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$",
+                },
+                {
+                    "id": 6,
+                    "nome": "Investimentos com usos finais [OPEX + CAPEX]",
+                    "descricao_input": "Indicador que mede a energia gasta",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$",
+                }
     ],
     "input_programa_atendimento": [
         {
@@ -77,6 +117,7 @@
             "valor": 100.12,
             "id_input_programa": 1,
             "id_atendimento": 445718
-        }
+        },
+    
     ]
 }
