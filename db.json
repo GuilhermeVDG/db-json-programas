@@ -12,48 +12,64 @@
             "inputs": [
                 {
                     "id": 1,
-                    "nome": "Valor do KWh medio",
-                    "descricao_input": "Indicador que mede a energia gasta",
+                    "nome": "Medição inicial de consumo",
+                    "descricao_input": "Medição inicial do consumo de energia em MWh/ano",
+                    "id_programa": 1,
+                    "placeholder": "MWh/ano",
+                    "sufixo": "R$/KWh"
+                },
+                {
+                    "id": 2,
+                    "nome": "Medição final de consumo",
+                    "descricao_input": "Medição final do consumo de energia em MWh/ano",
+                    "id_programa": 1,
+                    "placeholder": "MWh/ano",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 3,
+                    "nome": "Valor do KWh médio",
+                    "descricao_input": "Valor médio do custo por KWh em R$/KWh",
                     "id_programa": 1,
                     "placeholder": "R$/KWh",
                     "sufixo": "R$/KWh"
                 },
                 {
-                    "id": 2,
-                    "nome": "Economia com Correcao de fator de potencia",
-                    "descricao_input": "Indicador que mede a energia gasta",
-                    "id_programa": 1,
-                    "placeholder": "R$",
-                    "sufixo": "R$"
-                },
-                {
-                    "id": 3,
-                    "nome": "Economia com readequacao de demanda contratada",
-                    "descricao_input": "Indicador que mede a energia gasta",
-                    "id_programa": 1,
-                    "placeholder": "R$",
-                    "sufixo": "R$"
-                },
-                {
                     "id": 4,
-                    "nome": "Economia com reenquadramento tarifario",
-                    "descricao_input": "Indicador que mede a energia gasta",
+                    "nome": "Economia com Correção de fator de potência",
+                    "descricao_input": "Economia obtida com a correção do fator de potência em R$",
                     "id_programa": 1,
                     "placeholder": "R$",
                     "sufixo": "R$"
                 },
                 {
                     "id": 5,
-                    "nome": "Investimentos com acoes da analise tarifaria [OPEX + CAPEX]",
-                    "descricao_input": "Indicador que mede a energia gasta",
+                    "nome": "Economia com readequação de demanda contratada",
+                    "descricao_input": "Economia obtida com a readequação da demanda contratada em R$",
                     "id_programa": 1,
                     "placeholder": "R$",
                     "sufixo": "R$"
                 },
                 {
                     "id": 6,
+                    "nome": "Economia com reenquadramento tarifário",
+                    "descricao_input": "Economia obtida com o reenquadramento tarifário em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 7,
+                    "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+                    "descricao_input": "Investimentos realizados com ações da análise tarifária em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 8,
                     "nome": "Investimentos com usos finais [OPEX + CAPEX]",
-                    "descricao_input": "Indicador que mede a energia gasta",
+                    "descricao_input": "Investimentos realizados em usos finais (OPEX + CAPEX) em R$",
                     "id_programa": 1,
                     "placeholder": "R$",
                     "sufixo": "R$"
@@ -64,48 +80,64 @@
     "input_programa": [
         {
             "id": 1,
-            "nome": "Valor do KWh medio",
-            "descricao_input": "Indicador que mede a energia gasta",
+            "nome": "Medição inicial de consumo",
+            "descricao_input": "Medição inicial do consumo de energia em MWh/ano",
+            "id_programa": 1,
+            "placeholder": "MWh/ano",
+            "sufixo": "R$/KWh"
+        },
+        {
+            "id": 2,
+            "nome": "Medição final de consumo",
+            "descricao_input": "Medição final do consumo de energia em MWh/ano",
+            "id_programa": 1,
+            "placeholder": "MWh/ano",
+            "sufixo": "R$"
+        },
+        {
+            "id": 3,
+            "nome": "Valor do KWh médio",
+            "descricao_input": "Valor médio do custo por KWh em R$/KWh",
             "id_programa": 1,
             "placeholder": "R$/KWh",
             "sufixo": "R$/KWh"
         },
         {
-            "id": 2,
-            "nome": "Economia com Correcao de fator de potencia",
-            "descricao_input": "Indicador que mede a energia gasta",
-            "id_programa": 1,
-            "placeholder": "R$",
-            "sufixo": "R$"
-        },
-        {
-            "id": 3,
-            "nome": "Economia com readequacao de demanda contratada",
-            "descricao_input": "Indicador que mede a energia gasta",
-            "id_programa": 1,
-            "placeholder": "R$",
-            "sufixo": "R$"
-        },
-        {
             "id": 4,
-            "nome": "Economia com reenquadramento tarifario",
-            "descricao_input": "Indicador que mede a energia gasta",
+            "nome": "Economia com Correção de fator de potência",
+            "descricao_input": "Economia obtida com a correção do fator de potência em R$",
             "id_programa": 1,
             "placeholder": "R$",
             "sufixo": "R$"
         },
         {
             "id": 5,
-            "nome": "Investimentos com acoes da analise tarifaria [OPEX + CAPEX]",
-            "descricao_input": "Indicador que mede a energia gasta",
+            "nome": "Economia com readequação de demanda contratada",
+            "descricao_input": "Economia obtida com a readequação da demanda contratada em R$",
             "id_programa": 1,
             "placeholder": "R$",
             "sufixo": "R$"
         },
         {
             "id": 6,
+            "nome": "Economia com reenquadramento tarifário",
+            "descricao_input": "Economia obtida com o reenquadramento tarifário em R$",
+            "id_programa": 1,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        },
+        {
+            "id": 7,
+            "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+            "descricao_input": "Investimentos realizados com ações da análise tarifária em R$",
+            "id_programa": 1,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        },
+        {
+            "id": 8,
             "nome": "Investimentos com usos finais [OPEX + CAPEX]",
-            "descricao_input": "Indicador que mede a energia gasta",
+            "descricao_input": "Investimentos realizados em usos finais (OPEX + CAPEX) em R$",
             "id_programa": 1,
             "placeholder": "R$",
             "sufixo": "R$"
