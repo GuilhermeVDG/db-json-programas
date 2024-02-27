@@ -96,6 +96,8 @@
                },
                {
                     "id": 10,
+                    "nome": "Medição Final",
+                    "descricao_input": "Medição Final",
                     "nome": "Custo do Programa",
                     "descricao_input": "Custo do Programa Lean Manufacturing",
                     "id_programa": 2,
@@ -104,8 +106,8 @@
                 },
                 {
                     "id": 11,
-                    "nome": "Medição Final",
-                    "descricao_input": "Medição Final",
+                    "nome": "Custo do Programa",
+                    "descricao_input": "Custo do Programa Lean Manufacturing",
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
