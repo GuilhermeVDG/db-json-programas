@@ -2,7 +2,7 @@
     "programa_base_nacional": [
         {
             "id": 1,
-            "nome": "NOVO Brasil mais produtivo",
+            "nome": "NOVO Brasil mais produtivo EE",
             "descricao": "Programa Piloto",
             "data_inicio_prevista": "2020-12-30",
             "data_fim_prevista": "2021-12-22",
@@ -75,6 +75,50 @@
                     "sufixo": "R$"
                 }
             ]
+        },
+        {
+            "id": 2,
+            "nome": "NOVO Brasil mais produtivo Lean",
+            "descricao": "Programa Piloto",
+            "data_inicio_prevista": "2020-12-30",
+            "data_fim_prevista": "2021-12-22",
+            "situacao": 1,
+            "data_criacao": "2020-12-30 08:59:48.967",
+            "id_produto_nacional": 868,
+            "inputs": [
+                {
+                    "id": 9,
+                    "nome": "Medição Inicial",
+                    "descricao_input": "Medição Inicial Lean Manufacturing",
+                    "id_programa": 2,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+               },
+               {
+                    "id": 10,
+                    "nome": "Custo do Programa",
+                    "descricao_input": "Custo do Programa Lean Manufacturing",
+                    "id_programa": 2,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 11,
+                    "nome": "Medição Final",
+                    "descricao_input": "Medição Final",
+                    "id_programa": 2,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 12,
+                    "nome": "Investimento de Ações",
+                    "descricao_input": "Investimento de Ações",
+                    "id_programa": 2,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                }      
+            ]
         }
     ],
     "input_programa": [
@@ -141,7 +185,39 @@
             "id_programa": 1,
             "placeholder": "R$",
             "sufixo": "R$"
-        }
+        },
+        {
+            "id": 9,
+            "nome": "Medição Inicial",
+            "descricao_input": "Medição Inicial Lean Manufacturing",
+            "id_programa": 2,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        },
+        {
+            "id": 10,
+            "nome": "Custo do Programa",
+            "descricao_input": "Custo do Programa Lean Manufacturing",
+            "id_programa": 2,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        },
+        {
+            "id": 11,
+            "nome": "Medição Final",
+            "descricao_input": "Medição Final",
+            "id_programa": 2,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        },
+        {
+            "id": 12,
+            "nome": "Investimento de Ações",
+            "descricao_input": "Investimento de Ações",
+            "id_programa": 2,
+            "placeholder": "R$",
+            "sufixo": "R$"
+        }        
     ],
     "input_programa_atendimento": [
         {
