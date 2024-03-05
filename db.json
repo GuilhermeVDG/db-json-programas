@@ -274,62 +274,6 @@
             "id_input_programa": 1,
             "id_atendimento": 445718,
             "id_tipo_input_programa": 1
-        },
-        {
-            "id": 2,
-            "valor": 37.20,
-            "id_input_programa": 2,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 3,
-            "valor": 0.75,
-            "id_input_programa": 3,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 4,
-            "valor": 500.00,
-            "id_input_programa": 4,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 5,
-            "valor": 1000.00,
-            "id_input_programa": 5,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 6,
-            "valor": 200.00,
-            "id_input_programa": 6,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 7,
-            "valor": 100.00,
-            "id_input_programa": 7,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 8,
-            "valor": 5600.00,
-            "id_input_programa": 8,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        },
-        {
-            "id": 9,
-            "valor": 100.00,
-            "id_input_programa": 9,
-            "id_atendimento": 445721,
-            "id_tipo_input_programa": 1
         }
     ],
     "tipo_input_programa": [
