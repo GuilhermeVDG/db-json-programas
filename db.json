@@ -9,7 +9,72 @@
             "situacao": 1,
             "data_criacao": "2020-12-30 08:59:48.967",
             "id_produto_nacional": 867,
-            "inputs": []
+            "inputs": [
+                {
+                    "id": 1,
+                    "nome": "Medição inicial de consumo",
+                    "descricao_input": "Medição inicial do consumo de energia em MWh/ano",
+                    "id_programa": 1,
+                    "placeholder": "MWh/ano",
+                    "sufixo": "R$/KWh"
+                },
+                {
+                    "id": 2,
+                    "nome": "Medição final de consumo",
+                    "descricao_input": "Medição final do consumo de energia em MWh/ano",
+                    "id_programa": 1,
+                    "placeholder": "MWh/ano",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 3,
+                    "nome": "Valor do KWh médio",
+                    "descricao_input": "Valor médio do custo por KWh em R$/KWh",
+                    "id_programa": 1,
+                    "placeholder": "R$/KWh",
+                    "sufixo": "R$/KWh"
+                },
+                {
+                    "id": 4,
+                    "nome": "Economia com Correção de fator de potência",
+                    "descricao_input": "Economia obtida com a correção do fator de potência em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 5,
+                    "nome": "Economia com readequação de demanda contratada",
+                    "descricao_input": "Economia obtida com a readequação da demanda contratada em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 6,
+                    "nome": "Economia com reenquadramento tarifário",
+                    "descricao_input": "Economia obtida com o reenquadramento tarifário em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 7,
+                    "nome": "Investimentos com ações da análise tarifária [OPEX + CAPEX]",
+                    "descricao_input": "Investimentos realizados com ações da análise tarifária em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                },
+                {
+                    "id": 8,
+                    "nome": "Investimentos com usos finais [OPEX + CAPEX]",
+                    "descricao_input": "Investimentos realizados em usos finais (OPEX + CAPEX) em R$",
+                    "id_programa": 1,
+                    "placeholder": "R$",
+                    "sufixo": "R$"
+                }
+            ]
         },
         {
             "id": 2,
@@ -28,11 +93,11 @@
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
-                },
-                {
+               },
+               {
                     "id": 10,
                     "nome": "Medição Final",
-                    "descricao_input": "Medição Final Lean Manufacturing",
+                    "descricao_input": "Medição Final",
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
@@ -52,31 +117,7 @@
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
-                },
-                {
-                    "id": 13,
-                    "nome": "Número de operadores por turno",
-                    "descricao_input": "Número de operadores por turno",
-                    "id_programa": 2,
-                    "placeholder": "Operadores",
-                    "sufixo": "Operadores"
-                },
-                {
-                    "id": 14,
-                    "nome": "Quantidade de horas por turno",
-                    "descricao_input": "Quantidade de horas por turno",
-                    "id_programa": 2,
-                    "placeholder": "Horas",
-                    "sufixo": "Horas"
-                },
-                {
-                    "id": 15,
-                    "nome": "Quantidade produzida nas horas trabalhadas por turno",
-                    "descricao_input": "Quantidade produzida nas horas trabalhadas por turno",
-                    "id_programa": 2,
-                    "placeholder": "Quantidade",
-                    "sufixo": "Quantidade"
-                }
+                }      
             ]
         }
     ],
@@ -156,7 +197,7 @@
         {
             "id": 10,
             "nome": "Medição Final",
-            "descricao_input": "Medição Final Lean Manufacturing",
+            "descricao_input": "Medição Final",
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
@@ -176,53 +217,62 @@
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
-        },
-        {
-            "id": 13,
-            "nome": "Número de operadores por turno",
-            "descricao_input": "Número de operadores por turno",
-            "id_programa": 2,
-            "placeholder": "Operadores",
-            "sufixo": "Operadores"
-        }
-        {
-            "id": 14,
-            "nome": "Quantidade de horas por turno",
-            "descricao_input": "Quantidade de horas por turno",
-            "id_programa": 2,
-            "placeholder": "Horas",
-            "sufixo": "Horas"
-        },
-        {
-            "id": 15,
-            "nome": "Quantidade produzida nas horas trabalhadas por turno",
-            "descricao_input": "Quantidade produzida nas horas trabalhadas por turno",
-            "id_programa": 2,
-            "placeholder": "Quantidade",
-            "sufixo": "Quantidade"
-        }
+        }        
     ],
     "input_programa_atendimento": [
         {
             "id": 1,
             "valor": 54.20,
             "id_input_programa": 1,
-            "id_atendimento": 445718,
-            "id_tipo_input_programa": 1
-        }
-    ],
-    "tipo_input_programa": [
-        {
-            "id": 1,
-            "nome": "Valor Único"
+            "id_atendimento": 445718
         },
         {
             "id": 2,
-            "nome": "Medição Inicial"
+            "valor": 37.20,
+            "id_input_programa": 2,
+            "id_atendimento": 445718
         },
         {
             "id": 3,
-            "nome": "Medição Final"
+            "valor": 0.75,
+            "id_input_programa": 3,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 4,
+            "valor": 500.00,
+            "id_input_programa": 4,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 5,
+            "valor": 1000.00,
+            "id_input_programa": 5,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 6,
+            "valor": 200.00,
+            "id_input_programa": 6,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 7,
+            "valor": 100.00,
+            "id_input_programa": 7,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 8,
+            "valor": 5600.00,
+            "id_input_programa": 8,
+            "id_atendimento": 445718
+        },
+        {
+            "id": 9,
+            "valor": 100.00,
+            "id_input_programa": 9,
+            "id_atendimento": 445721
         }
-    ],
+    ]
 }
