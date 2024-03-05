@@ -97,7 +97,7 @@
                {
                     "id": 10,
                     "nome": "Medição Final",
-                    "descricao_input": "Medição Final",
+                    "descricao_input": "Medição Final Lean Manufacturing",
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
@@ -105,7 +105,7 @@
                 {
                     "id": 11,
                     "nome": "Custo do Programa",
-                    "descricao_input": "Custo do Programa Lean Manufacturing, o Primeiro Valor é o inicial e o 2 o final",
+                    "descricao_input": "Custo do Programa Lean Manufacturing",
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
@@ -117,7 +117,31 @@
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
-                }      
+                },
+                {
+                    "id": 13,
+                    "nome": "Número de operadores por turno",
+                    "descricao_input": "Número de operadores por turno",
+                    "id_programa": 2,
+                    "placeholder": "Operadores",
+                    "sufixo": "Operadores"
+                }
+                {
+                    "id": 14,
+                    "nome": "Quantidade de horas por turno",
+                    "descricao_input": "Quantidade de horas por turno",
+                    "id_programa": 2,
+                    "placeholder": "Horas",
+                    "sufixo": "Horas"
+                },
+                {
+                    "id": 15,
+                    "nome": "Quantidade produzida nas horas trabalhadas por turno",
+                    "descricao_input": "Quantidade produzida nas horas trabalhadas por turno",
+                    "id_programa": 2,
+                    "placeholder": "Quantidade",
+                    "sufixo": "Quantidade"
+                }
             ]
         }
     ],
@@ -197,7 +221,7 @@
         {
             "id": 10,
             "nome": "Medição Final",
-            "descricao_input": "Medição Final",
+            "descricao_input": "Medição Final Lean Manufacturing",
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
@@ -205,7 +229,7 @@
         {
             "id": 11,
             "nome": "Custo do Programa",
-            "descricao_input": "Custo do Programa Lean Manufacturing, o Primeiro Valor é o inicial e o 2 o final",
+            "descricao_input": "Custo do Programa Lean Manufacturing",
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
@@ -217,62 +241,109 @@
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
-        }        
+        },
+        {
+            "id": 13,
+            "nome": "Número de operadores por turno",
+            "descricao_input": "Número de operadores por turno",
+            "id_programa": 2,
+            "placeholder": "Operadores",
+            "sufixo": "Operadores"
+        }
+        {
+            "id": 14,
+            "nome": "Quantidade de horas por turno",
+            "descricao_input": "Quantidade de horas por turno",
+            "id_programa": 2,
+            "placeholder": "Horas",
+            "sufixo": "Horas"
+        },
+        {
+            "id": 15,
+            "nome": "Quantidade produzida nas horas trabalhadas por turno",
+            "descricao_input": "Quantidade produzida nas horas trabalhadas por turno",
+            "id_programa": 2,
+            "placeholder": "Quantidade",
+            "sufixo": "Quantidade"
+        }
     ],
     "input_programa_atendimento": [
         {
             "id": 1,
             "valor": 54.20,
             "id_input_programa": 1,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 2,
             "valor": 37.20,
             "id_input_programa": 2,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 3,
             "valor": 0.75,
             "id_input_programa": 3,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 4,
             "valor": 500.00,
             "id_input_programa": 4,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 5,
             "valor": 1000.00,
             "id_input_programa": 5,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 6,
             "valor": 200.00,
             "id_input_programa": 6,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 7,
             "valor": 100.00,
             "id_input_programa": 7,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 8,
             "valor": 5600.00,
             "id_input_programa": 8,
-            "id_atendimento": 445718
+            "id_atendimento": 445718,
+            "id_tipo_input_programa": 1
         },
         {
             "id": 9,
             "valor": 100.00,
             "id_input_programa": 9,
-            "id_atendimento": 445721
+            "id_atendimento": 445721,
+            "id_tipo_input_programa": 1
         }
-    ]
+    ],
+    "tipo_input_programa": [
+        {
+            "id": 1,
+            "nome": "Valor Único"
+        },
+        {
+            "id": 2,
+            "nome": "Medição Inicial"
+        },
+        {
+            "id": 3,
+            "nome": "Medição Final"
+        }
+    ],
 }
