@@ -105,7 +105,7 @@
                 {
                     "id": 11,
                     "nome": "Custo do Programa",
-                    "descricao_input": "Custo do Programa Lean Manufacturing",
+                    "descricao_input": "Custo do Programa Lean Manufacturing, o Primeiro Valor é o inicial e o 2 o final",
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
@@ -205,7 +205,7 @@
         {
             "id": 11,
             "nome": "Custo do Programa",
-            "descricao_input": "Custo do Programa Lean Manufacturing",
+            "descricao_input": "Custo do Programa Lean Manufacturing, o Primeiro Valor é o inicial e o 2 o final",
             "id_programa": 2,
             "placeholder": "R$",
             "sufixo": "R$"
