@@ -9,9 +9,7 @@
             "situacao": 1,
             "data_criacao": "2020-12-30 08:59:48.967",
             "id_produto_nacional": 867,
-            "inputs": [
-               
-            ]
+            "inputs": []
         },
         {
             "id": 2,
@@ -30,8 +28,8 @@
                     "id_programa": 2,
                     "placeholder": "R$",
                     "sufixo": "R$"
-               },
-               {
+                },
+                {
                     "id": 10,
                     "nome": "Medição Final",
                     "descricao_input": "Medição Final Lean Manufacturing",
@@ -62,7 +60,7 @@
                     "id_programa": 2,
                     "placeholder": "Operadores",
                     "sufixo": "Operadores"
-                }
+                },
                 {
                     "id": 14,
                     "nome": "Quantidade de horas por turno",
